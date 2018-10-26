@@ -33,6 +33,8 @@ struct edge {
 	ll cap, flow;
 };
  
+// O(N*M*M);
+ 
 int N, M, s, t, d[MAXN], ptr[MAXN];
 vector<edge> e; //con add_edge
 vector<int> G[MAXN]; //no lo lleno yo se limpia

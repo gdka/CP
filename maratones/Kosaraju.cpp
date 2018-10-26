@@ -58,6 +58,7 @@ int main(){
     for(int a,b,i=0; i<e; i++){
         scii(a,b)
         G[a].pb(b);
+        G[b].pb(a);
 
     }
     SCC();

@@ -16,8 +16,7 @@ using namespace std;
 #define ms(obj, val) memset(obj, val, sizeof(obj))
 #define pb push_back
 #define SYNC ios_base::sync_with_stdio(false)
-#define inf 2248012
-#define mp make_pair
+#define st(v) sort(v.begin(),v.end());
 #define F first
 #define S second
 #define ri(x) scanf("%d",&x)

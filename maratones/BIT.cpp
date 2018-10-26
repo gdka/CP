@@ -5,7 +5,7 @@
 //que meterlo en el BIT a lo brutico, iterando sobre A y haciendo puros updates
 
 int BIT[MAXN];
-
+// OJO N == n+1
 //suma val a la posicion p, tengan en cuenta que esto no modifica A, a veces se quiere
 //modificar, entonces lo tienen que hacer tambien a parte.
 void BIT_upd(int p, int val){ //O(log(n))
